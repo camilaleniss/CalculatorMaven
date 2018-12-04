@@ -10,7 +10,7 @@ public class Calculadora {
 		estadoFuncionalidad[2] = false;
 		estadoFuncionalidad[3] = false;
 		estadoFuncionalidad[4] = false;
-		estadoFuncionalidad[5] = false;
+		estadoFuncionalidad[5] = true;
 		estadoFuncionalidad[6] = false;
 		estadoFuncionalidad[7] = false;
 		estadoFuncionalidad[8] = false;
@@ -42,9 +42,8 @@ public class Calculadora {
 		return 0;
 	}
 	
-	public long exponente(int a, int b) {
-		//TODO desarrollar funcionalidad		
-		return 0;
+	public long exponente(int a, int b) {		
+		return (long) Math.pow(a, b);
 	}
 	
 	public long factorial(int a) {
